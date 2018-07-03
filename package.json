@@ -1,0 +1,29 @@
+{
+  "name": "NodeJSCRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "nodemon app.js",
+    "api": "api-doc-generator --title API Docs --input Routes/routes.js --output docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "api-doc-generator": "0.0.2",
+    "appmetrics-dash": "^3.4.0",
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "joi": "^13.1.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.2"
+  },
+  "devDependencies": {
+    "request": "^2.85.0",
+    "mocha": "^5.0.5",
+    "chai": "^4.1.2"
+  }
+}
