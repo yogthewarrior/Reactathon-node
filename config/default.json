@@ -1,13 +1,7 @@
 {
     "odbConfig": {
         "host": "localhost",
-        "port": 3306,
-        "dbName": "Test_DB",
-        "user":"root",
-        "password":"root",
-        "poolMin" : 0,
-        "poolMax" : 10,
-        "poolIncrement" : 3,
-        "poolTimeout" : 300
+        "port": 27017,
+        "dbName": "GitHubUsers"
     }
 }

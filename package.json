@@ -14,12 +14,15 @@
   "dependencies": {
     "api-doc-generator": "0.0.2",
     "appmetrics-dash": "^3.4.0",
+    "async": "^2.6.1",
     "body-parser": "^1.18.2",
     "config": "^1.30.0",
     "express": "^4.16.3",
+    "gh-user": "^3.0.0",
     "joi": "^13.1.2",
+    "mongoose": "^5.2.9",
     "mysql": "^2.15.0",
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.18.2-alpha.1"
   },
   "devDependencies": {
     "request": "^2.85.0",
